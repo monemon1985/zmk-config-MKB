@@ -25,7 +25,7 @@
         compatible = "zmk,keymap";
 
         Win_default {
-            label = "Def";
+            label = "Win_def";
             bindings = <
 &kp TAB       &kp Q     &kp W      &kp E     &kp R          &kp T               &kp Y           &kp U          &kp I      &kp O      &kp P      &kp BKSP
 &lt BT ESC    &kp A     &kp S      &kp D     &kp F          &kp G               &kp H           &kp J          &kp K      &kp L      &kp SEMI   &kp SQT
@@ -35,11 +35,11 @@
                                    &kp A                                                                       &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
         };
 
         Mac_default {
-            label = "Fnc";
+            label = "Mac_def";
             bindings = <
 &kp GRAVE  &kp PG_UP  &kp UP     &kp PG_DN  &kp HOME   &trans         &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &trans
 &tog_ls    &kp LEFT   &kp DOWN   &kp RIGHT  &kp END    &trans         &kp F6     &kp F7     &kp F8     &kp F9     &kp F10    &trans
@@ -49,11 +49,11 @@
                                  &kp A                                                      &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
         };
 
         Win_num {
-            label = "Num";
+            label = "Win_Num";
             bindings = <
 &kp CAPS         &kp N1         &kp N2     &kp N3    &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &trans
 &trans           &trans         &trans     &trans    &trans     &trans         &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &trans
@@ -67,7 +67,7 @@
         };
 
         Mac_num {
-            label = "Mouse";
+            label = "Mac_num";
             bindings = <
 &trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
 &trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &mkp MB1   &mkp MB3   &mkp MB2   &trans
@@ -81,7 +81,7 @@
         };
 
         Function {
-            label = "Scr";
+            label = "Func";
             bindings = <
 &trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &trans     &trans     &trans     &trans
 &trans    &trans  &trans     &trans    &trans     &trans      &trans  &trans    &mkp MB1   &mkp MB3   &mkp MB2   &trans
@@ -91,10 +91,53 @@
                              &kp A                                              &kp B
             >;
 
+            sensor-bindings = <&inc_dec_kp C_MNXT C_MPRV &inc_dec_kp PG_UP PG_DN>;
+        };
+
+        Win_Mouse {
+            label = "Win_Mouse";
+            bindings = <
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bt BT_CLR_ALL  &trans    &trans     &trans     &trans     &trans
+&trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
+&trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
+&trans      &trans        &trans                      &trans        &trans            &trans          &trans               &trans     &trans     &trans
+&kp LEFT    &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                                       &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                        &kp A                                                                   &kp B
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_WH_UP C_WH_DN &inc_dec_kp PG_UP PG_DN>;
+        };
+
+        Mac_Mouse {
+            label = "Mac_Mouse";
+            bindings = <
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bt BT_CLR_ALL  &trans    &trans     &trans     &trans     &trans
+&trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
+&trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
+&trans      &trans        &trans                      &trans        &trans            &trans          &trans               &trans     &trans     &trans
+&kp LEFT    &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                                       &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                        &kp A                                                                   &kp B
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_WH_UP C_WH_DN &inc_dec_kp PG_UP PG_DN>;
+        };
+
+        System {
+            label = "Sys";
+            bindings = <
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bt BT_CLR_ALL  &trans    &trans     &trans     &trans     &trans
+&trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
+&trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
+&trans      &trans        &trans                      &trans        &trans            &trans          &trans               &trans     &trans     &trans
+&kp LEFT    &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                                       &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                        &kp A                                                                   &kp B
+            >;
+
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        Mouse {
+
+        BT {
             label = "BT";
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bt BT_CLR_ALL  &trans    &trans     &trans     &trans     &trans
@@ -108,8 +151,8 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        Media {
-            label = "BT";
+        Macro {
+            label = "Macro";
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bt BT_CLR_ALL  &trans    &trans     &trans     &trans     &trans
 &trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
@@ -123,21 +166,7 @@
         };
 
         Others {
-            label = "BT";
-            bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bt BT_CLR_ALL  &trans    &trans     &trans     &trans     &trans
-&trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
-&trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
-&trans      &trans        &trans                      &trans        &trans            &trans          &trans               &trans     &trans     &trans
-&kp LEFT    &kp UP        &kp SPACE     &kp DOWN      &kp RIGHT                                       &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                        &kp A                                                                   &kp B
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-        };
-
-        bt_layer {
-            label = "BT";
+            label = "OTR";
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bt BT_CLR_ALL  &trans    &trans     &trans     &trans     &trans
 &trans      &trans        &trans        &trans        &trans        &trans            &trans          &trans    &trans     &trans     &trans     &trans
