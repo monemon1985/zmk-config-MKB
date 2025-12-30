@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BKSP
+  - EQUAL
   - LEFT CONTROL
   - A
   - B
@@ -20,7 +20,7 @@ layers:
   - F
   - G
   - H
-  - A
+  - J
   - K
   - L
   - SEMI
@@ -35,8 +35,8 @@ layers:
   - M
   - COMMA
   - DOT
-  - UP
-  - BKSP
+  - SLASH
+  - Alt+RIGHT SHIFT
   - {t: ESC, h: LCTL}
   - LGUI
   - {t: LANGUAGE 2, h: LALT}
@@ -44,9 +44,9 @@ layers:
   - SPACE
   - SPACE
   - BACKSPACE
-  - LEFT
-  - DOWN
-  - RIGHT
+  - {t: LANGUAGE 1, h: RIGHT ALT}
+  - LEFT BRACKET
+  - RIGHT BRACKET
   - LEFT
   - UP
   - SPACE
