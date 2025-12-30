@@ -1,7 +1,64 @@
 layout: {zmk_keyboard: MKB}
 layers:
-  W_DEF: [TAB, Q, W, E, R, T, Y, U, I, O, P, BKSP, A, A, S, D, F, G, H, J, K, L, SEMI, SQT, LSHFT, Z, X, C, V, B, N, M, COMMA, DOT, UP, BKSP, '&mt LCTL', LGUI, LALT,
-    SPACE, SPACE, SPACE, SPACE, LEFT, DOWN, RIGHT, LEFT, UP, SPACE, DOWN, RIGHT, HOME, PG UP, ENTER, PG DN, END, A, B]
+  W_DEF:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BKSP
+  - A
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - SEMI
+  - SQT
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - COMMA
+  - DOT
+  - UP
+  - BKSP
+  - {t: ESC, h: LCTL}
+  - LGUI
+  - LALT
+  - SPACE
+  - SPACE
+  - SPACE
+  - SPACE
+  - LEFT
+  - DOWN
+  - RIGHT
+  - LEFT
+  - UP
+  - SPACE
+  - DOWN
+  - RIGHT
+  - HOME
+  - PG UP
+  - ENTER
+  - PG DN
+  - END
+  - A
+  - B
   M_DEF:
   - TAB
   - Q
