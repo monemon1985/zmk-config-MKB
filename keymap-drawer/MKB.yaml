@@ -60,7 +60,7 @@ layers:
   - A
   - B
   M_DEF:
-  - {t: TAB, h: M_TB}
+  - TAB
   - Q
   - W
   - E
@@ -96,14 +96,14 @@ layers:
   - DOT
   - SLASH
   - {t: GRAVE, h: RIGHT SHIFT}
-  - {t: ESC, h: BT}
+  - ESCAPE
   - LGUI
-  - {t: LANGUAGE 2, h: LALT}
-  - {t: MINUS, h: M_TB}
-  - {t: SPACE, h: M_NUM}
-  - {t: ENTER, h: FUNC}
+  - LALT
+  - MINUS
+  - SPACE
+  - ENTER
   - BACKSPACE
-  - {t: LANGUAGE 1, h: RIGHT ALT}
+  - RIGHT ALT
   - LEFT BRACKET
   - RIGHT BRACKET
   - LEFT
@@ -155,7 +155,7 @@ layers:
   - '3'
   - UP
   - BKSP
-  - {t: ESC, h: LCTL}
+  - ESCAPE
   - LGUI
   - LALT
   - SPACE
@@ -177,65 +177,8 @@ layers:
   - END
   - A
   - B
-  M_NUM:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BKSP
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
-  - UP
-  - BKSP
-  - {t: ESC, h: LCTL}
-  - LGUI
-  - LALT
-  - SPACE
-  - {t: SPACE, type: held}
-  - SPACE
-  - SPACE
-  - LEFT
-  - DOWN
-  - RIGHT
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ENTER
-  - PG DN
-  - END
-  - A
-  - B
+  M_NUM: [TAB, Q, W, E, R, T, Y, U, I, O, P, BKSP, A, A, S, D, F, G, H, J, K, L, SEMI, SQT, LSHFT, Z, X, C, V, B, N, M, COMMA, DOT, UP, BKSP, ESCAPE, LGUI, LALT,
+    SPACE, SPACE, SPACE, SPACE, LEFT, DOWN, RIGHT, LEFT, UP, SPACE, DOWN, RIGHT, HOME, PG UP, ENTER, PG DN, END, A, B]
   FUNC:
   - TAB
   - Q
@@ -273,7 +216,7 @@ layers:
   - DOT
   - UP
   - BKSP
-  - {t: ESC, h: LCTL}
+  - ESC
   - LGUI
   - LALT
   - SPACE
@@ -332,7 +275,7 @@ layers:
   - DOT
   - UP
   - BKSP
-  - {t: ESC, h: LCTL}
+  - {t: ▽, type: trans}
   - LGUI
   - LALT
   - SPACE
@@ -355,7 +298,7 @@ layers:
   - A
   - B
   M_TB:
-  - {t: TAB, type: held}
+  - TAB
   - Q
   - W
   - E
@@ -391,7 +334,7 @@ layers:
   - DOT
   - UP
   - BKSP
-  - {t: ESC, h: LCTL}
+  - {t: ▽, type: trans}
   - LGUI
   - LALT
   - SPACE
@@ -450,7 +393,7 @@ layers:
   - DOT
   - UP
   - BKSP
-  - {t: ESC, h: LCTL}
+  - {t: ▽, type: trans}
   - LGUI
   - LALT
   - SPACE
@@ -509,7 +452,7 @@ layers:
   - DOT
   - UP
   - BKSP
-  - {t: ESC, h: LCTL}
+  - {t: ▽, type: trans}
   - LGUI
   - LALT
   - SPACE
@@ -568,7 +511,7 @@ layers:
   - DOT
   - UP
   - BKSP
-  - {t: ESC, h: LCTL, type: held}
+  - {type: held}
   - LGUI
   - LALT
   - SPACE
@@ -627,7 +570,7 @@ layers:
   - DOT
   - UP
   - BKSP
-  - {t: ESC, h: LCTL}
+  - {t: ▽, type: trans}
   - LGUI
   - LALT
   - SPACE
@@ -686,7 +629,7 @@ layers:
   - DOT
   - UP
   - BKSP
-  - {t: ESC, h: LCTL}
+  - {t: ▽, type: trans}
   - LGUI
   - LALT
   - SPACE
