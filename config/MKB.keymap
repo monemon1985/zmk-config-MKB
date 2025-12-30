@@ -109,7 +109,7 @@
                                 &kp A                                                     &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS) &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp A B>, <&inc_dec_kp PG_UP PG_DN>;
         };
 
         M_TB {
