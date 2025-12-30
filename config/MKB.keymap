@@ -45,12 +45,12 @@
         M_DEF {
             label = "M_DEF";
             bindings = <
-&lt 6 TAB         &kp Q     &kp W                &kp E     &kp R        &kp T            &kp Y        &kp U          &kp I      &kp O                     &kp P             &kp EQUAL
-&kp LEFT_COMMAND  &kp A     &kp S                &kp D     &kp F        &kp G            &kp H        &kp J          &kp K      &kp L                     &kp SEMI          &kp SQT
-&kp LSHFT         &kp Z     &kp X                &kp C     &kp V        &kp B            &kp N        &kp M          &kp COMMA  &kp DOT                   &kp SLASH         &mt RIGHT_SHIFT GRAVE
-&lt 9 ESC         &kp LGUI  &mt LALT LANGUAGE_2            &lt 6 MINUS  &lt 3 SPACE      &lt 4 ENTER  &kp BACKSPACE             &mt RIGHT_ALT LANGUAGE_1  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT          &kp UP    &kp SPACE            &kp DOWN  &kp RIGHT                                  &kp HOME       &kp PG_UP  &kp ENTER                 &kp PG_DN         &kp END
-                                                 &kp A                                                               &kp B
+&kp TAB           &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U          &kp I      &kp O          &kp P             &kp EQUAL
+&kp LEFT_COMMAND  &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J          &kp K      &kp L          &kp SEMI          &kp SQT
+&kp LSHFT         &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M          &kp COMMA  &kp DOT        &kp SLASH         &mt RIGHT_SHIFT GRAVE
+&kp ESCAPE        &kp LGUI  &kp LALT             &kp MINUS  &kp SPACE      &kp ENTER  &kp BACKSPACE             &kp RIGHT_ALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LEFT          &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME       &kp PG_UP  &kp ENTER      &kp PG_DN         &kp END
+                                       &kp A                                                         &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
@@ -59,12 +59,12 @@
         W_NUM {
             label = "W_NUM";
             bindings = <
-&kp TAB       &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp N7        &kp NUMBER_8  &kp N9        &kp P      &kp BKSP
-&kp A         &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SEMI   &kp SQT
-&kp LSHFT     &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UP     &kp BKSP
-&mt LCTL ESC  &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE                   &kp LEFT      &kp DOWN   &kp RIGHT
-&kp LEFT      &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME      &kp PG_UP     &kp ENTER     &kp PG_DN  &kp END
-                                   &kp A                                                        &kp B
+&kp TAB     &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp N7        &kp NUMBER_8  &kp N9        &kp P      &kp BKSP
+&kp A       &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SEMI   &kp SQT
+&kp LSHFT   &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UP     &kp BKSP
+&kp ESCAPE  &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE                   &kp LEFT      &kp DOWN   &kp RIGHT
+&kp LEFT    &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME      &kp PG_UP     &kp ENTER     &kp PG_DN  &kp END
+                                 &kp A                                                        &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
@@ -73,12 +73,12 @@
         M_NUM {
             label = "M_NUM";
             bindings = <
-&kp TAB       &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
-&kp A         &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT     &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
-&mt LCTL ESC  &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
-&kp LEFT      &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                   &kp A                                                     &kp B
+&kp TAB     &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp A       &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
+&kp LSHFT   &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&kp ESCAPE  &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
+&kp LEFT    &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                 &kp A                                                     &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
@@ -87,12 +87,12 @@
         FUNC {
             label = "FUNC";
             bindings = <
-&kp TAB       &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
-&kp A         &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT     &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
-&mt LCTL ESC  &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
-&kp LEFT      &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                   &kp A                                                     &kp B
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&kp ESC    &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
+&kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                &kp A                                                     &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -101,12 +101,12 @@
         W_TB {
             label = "W_TB";
             bindings = <
-&kp TAB       &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
-&kp A         &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT     &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
-&mt LCTL ESC  &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
-&kp LEFT      &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                   &kp A                                                     &kp B
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&trans     &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
+&kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                &kp A                                                     &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS) &inc_dec_kp PG_UP PG_DN>;
@@ -115,12 +115,12 @@
         M_TB {
             label = "M_TB";
             bindings = <
-&kp TAB       &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
-&kp A         &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT     &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
-&mt LCTL ESC  &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
-&kp LEFT      &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                   &kp A                                                     &kp B
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&trans     &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
+&kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                &kp A                                                     &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS) &inc_dec_kp PG_UP PG_DN>;
@@ -129,12 +129,12 @@
         SLW_TB {
             label = "SLW";
             bindings = <
-&kp TAB       &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
-&kp A         &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT     &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
-&mt LCTL ESC  &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
-&kp LEFT      &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                   &kp A                                                     &kp B
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&trans     &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
+&kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                &kp A                                                     &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS) &inc_dec_kp PG_UP PG_DN>;
@@ -143,12 +143,12 @@
         FST_TB {
             label = "FST";
             bindings = <
-&kp TAB       &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
-&kp A         &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT     &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
-&mt LCTL ESC  &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
-&kp LEFT      &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                   &kp A                                                     &kp B
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&trans     &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
+&kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                &kp A                                                     &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS) &inc_dec_kp PG_UP PG_DN>;
@@ -157,12 +157,12 @@
         BT {
             label = "BT";
             bindings = <
-&kp TAB       &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
-&kp A         &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT     &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
-&mt LCTL ESC  &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
-&kp LEFT      &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                   &kp A                                                     &kp B
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&trans     &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
+&kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                &kp A                                                     &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp SCRL_DOWN SCRL_UP &inc_dec_kp PG_UP PG_DN>;
@@ -171,12 +171,12 @@
         SYS {
             label = "SYS";
             bindings = <
-&kp TAB       &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
-&kp A         &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT     &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
-&mt LCTL ESC  &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
-&kp LEFT      &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                   &kp A                                                     &kp B
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&trans     &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
+&kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                &kp A                                                     &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -185,12 +185,12 @@
         OTR {
             label = "OTR";
             bindings = <
-&kp TAB       &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
-&kp A         &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT     &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
-&mt LCTL ESC  &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
-&kp LEFT      &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                   &kp A                                                     &kp B
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&trans     &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
+&kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                                &kp A                                                     &kp B
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
