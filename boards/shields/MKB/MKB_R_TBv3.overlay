@@ -71,8 +71,8 @@
 
 /* ここはトップレベルで “上書き” する */
 &trackball_listener {
-    /* 何もマッチしない場合（保険）：普通 */
-    input-processors = <&zip_xy_scaler 2 1>;
+    /* デフォルトは“ほぼ無効” (1/16) */
+    input-processors = <&zip_xy_scaler 1 16>;
 
     /* 遅い：SLW_TB */
     slow {
@@ -92,12 +92,4 @@
         input-processors = <&zip_xy_scaler 4 1>;
     };
 
-    /* それ以外は “限りなくゼロ” ：1/16（最小級） */
-    disabled_like {
-        layers = <
-            L_W_DEF L_M_DEF L_W_NUM L_M_NUM L_Func
-            L_BT L_SYS L_OTR
-        >;
-        input-processors = <&zip_xy_scaler 1 16>;
-    };
 };
