@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: MKB}
 layers:
-  Win_def:
+  W_DEF:
   - TAB
   - Q
   - W
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BKSP
-  - {t: ESC, h: Win_Mouse}
+  - {t: ESC, h: W_TB}
   - A
   - S
   - D
@@ -36,14 +36,14 @@ layers:
   - COMMA
   - DOT
   - UP
-  - {t: FSLH, h: Mac_num}
+  - {t: FSLH, h: M_NUM}
   - {t: ESC, h: LCTL}
   - LGUI
   - LALT
-  - {t: SPACE, h: Win_Num}
-  - {t: SPACE, h: Mac_def}
-  - {t: SPACE, h: Mac_def}
-  - {t: SPACE, h: Win_Num}
+  - {t: SPACE, h: W_NUM}
+  - {t: SPACE, h: M_DEF}
+  - {t: SPACE, h: M_DEF}
+  - {t: SPACE, h: W_NUM}
   - LEFT
   - DOWN
   - RIGHT
@@ -59,7 +59,7 @@ layers:
   - END
   - A
   - B
-  Mac_def:
+  M_DEF:
   - GRAVE
   - PG UP
   - UP
@@ -118,7 +118,7 @@ layers:
   - END
   - A
   - B
-  Win_Num:
+  W_NUM:
   - CAPS
   - '1'
   - '2'
@@ -177,7 +177,7 @@ layers:
   - END
   - A
   - B
-  Mac_num:
+  M_NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -295,7 +295,7 @@ layers:
   - END
   - A
   - B
-  Win_Mouse:
+  W_TB:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -354,66 +354,7 @@ layers:
   - END
   - A
   - B
-  Mac_Mouse:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - BT CLR ALL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ENTER
-  - PG DN
-  - END
-  - A
-  - B
-  Sys:
+  M_TB:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -531,7 +472,7 @@ layers:
   - END
   - A
   - B
-  Macro:
+  Sys:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
