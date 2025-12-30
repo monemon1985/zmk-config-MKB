@@ -15,7 +15,7 @@ layers:
   - EQUAL
   - LEFT CONTROL
   - A
-  - B
+  - S
   - D
   - F
   - G
@@ -36,13 +36,13 @@ layers:
   - COMMA
   - DOT
   - SLASH
-  - Alt+RIGHT SHIFT
-  - {t: ESC, h: LCTL}
+  - {t: GRAVE, h: RIGHT SHIFT}
+  - {t: ESC, h: BT}
   - LGUI
   - {t: LANGUAGE 2, h: LALT}
   - {t: MINUS, h: W_TB}
-  - SPACE
-  - SPACE
+  - {t: SPACE, h: W_NUM}
+  - {t: ENTER, h: FUNC}
   - BACKSPACE
   - {t: LANGUAGE 1, h: RIGHT ALT}
   - LEFT BRACKET
@@ -60,7 +60,7 @@ layers:
   - A
   - B
   M_DEF:
-  - TAB
+  - {t: TAB, h: M_TB}
   - Q
   - W
   - E
@@ -71,8 +71,8 @@ layers:
   - I
   - O
   - P
-  - BKSP
-  - A
+  - EQUAL
+  - LEFT COMMAND
   - A
   - S
   - D
@@ -94,18 +94,18 @@ layers:
   - M
   - COMMA
   - DOT
-  - UP
-  - BKSP
-  - {t: ESC, h: LCTL}
+  - SLASH
+  - {t: GRAVE, h: RIGHT SHIFT}
+  - {t: ESC, h: BT}
   - LGUI
-  - LALT
-  - SPACE
-  - SPACE
-  - SPACE
-  - SPACE
-  - LEFT
-  - DOWN
-  - RIGHT
+  - {t: LANGUAGE 2, h: LALT}
+  - {t: MINUS, h: M_TB}
+  - {t: SPACE, h: M_NUM}
+  - {t: ENTER, h: FUNC}
+  - BACKSPACE
+  - {t: LANGUAGE 1, h: RIGHT ALT}
+  - LEFT BRACKET
+  - RIGHT BRACKET
   - LEFT
   - UP
   - SPACE
@@ -126,9 +126,9 @@ layers:
   - R
   - T
   - Y
-  - U
-  - I
-  - O
+  - '7'
+  - '8'
+  - '9'
   - P
   - BKSP
   - A
@@ -138,9 +138,9 @@ layers:
   - F
   - G
   - H
-  - J
-  - K
-  - L
+  - '4'
+  - '5'
+  - '6'
   - SEMI
   - SQT
   - LSHFT
@@ -150,16 +150,16 @@ layers:
   - V
   - B
   - N
-  - M
-  - COMMA
-  - DOT
+  - '1'
+  - '2'
+  - '3'
   - UP
   - BKSP
   - {t: ESC, h: LCTL}
   - LGUI
   - LALT
   - SPACE
-  - SPACE
+  - {t: SPACE, type: held}
   - SPACE
   - SPACE
   - LEFT
@@ -218,7 +218,7 @@ layers:
   - LGUI
   - LALT
   - SPACE
-  - SPACE
+  - {t: SPACE, type: held}
   - SPACE
   - SPACE
   - LEFT
@@ -278,7 +278,7 @@ layers:
   - LALT
   - SPACE
   - SPACE
-  - SPACE
+  - {t: SPACE, type: held}
   - SPACE
   - LEFT
   - DOWN
@@ -355,7 +355,7 @@ layers:
   - A
   - B
   M_TB:
-  - TAB
+  - {t: TAB, type: held}
   - Q
   - W
   - E
@@ -568,7 +568,7 @@ layers:
   - DOT
   - UP
   - BKSP
-  - {t: ESC, h: LCTL}
+  - {t: ESC, h: LCTL, type: held}
   - LGUI
   - LALT
   - SPACE
