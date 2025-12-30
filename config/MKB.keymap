@@ -49,7 +49,7 @@
                                  &kp A                                                      &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp LEFT RIGH &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
         };
 
         Win_num {
