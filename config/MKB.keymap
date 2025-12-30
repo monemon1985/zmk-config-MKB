@@ -10,7 +10,7 @@
 #define L_M_DEF    1
 #define L_W_NUM    2
 #define L_M_NUM    3
-#define L_FUC    4
+#define L_FUNC    4
 #define L_W_TB    5
 #define L_M_TB    6
 #define L_SLW_TB    7
