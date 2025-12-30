@@ -43,7 +43,7 @@ layers:
   - {t: MINUS, h: W_TB}
   - SPACE
   - SPACE
-  - {t: LANGUAGE 4, h: RIGHT ALT}
+  - BACKSPACE
   - LEFT
   - DOWN
   - RIGHT
