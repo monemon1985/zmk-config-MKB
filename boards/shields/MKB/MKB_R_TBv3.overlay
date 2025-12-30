@@ -96,7 +96,7 @@
     disabled_like {
         layers = <
             L_W_DEF L_M_DEF L_W_NUM L_M_NUM L_Func
-            L_BT L_Sys L_OTR
+            L_BT L_SYS L_OTR
         >;
         input-processors = <&zip_xy_scaler 1 16>;
     };
