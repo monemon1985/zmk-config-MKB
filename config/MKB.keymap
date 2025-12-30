@@ -59,9 +59,9 @@
         W_NUM {
             label = "W_NUM";
             bindings = <
-&kp TAB     &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp N7        &kp NUMBER_8  &kp N9        &kp P      &kp BKSP
+&kp TAB     &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp N7        &kp NUMBER_8  &kp N9        &kp P      &kp A
 &kp A       &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SEMI   &kp SQT
-&kp LSHFT   &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UP     &kp BKSP
+&kp LSHFT   &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UP     &kp A
 &kp ESCAPE  &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE                   &kp LEFT      &kp DOWN   &kp RIGHT
 &kp LEFT    &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME      &kp PG_UP     &kp ENTER     &kp PG_DN  &kp END
                                  &kp A                                                        &kp B
@@ -73,9 +73,9 @@
         M_NUM {
             label = "M_NUM";
             bindings = <
-&kp TAB     &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp TAB     &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp A
 &kp A       &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT   &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&kp LSHFT   &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp A
 &kp ESCAPE  &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
 &kp LEFT    &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                                  &kp A                                                     &kp B
@@ -87,9 +87,9 @@
         FUNC {
             label = "FUNC";
             bindings = <
-&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp A
 &kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp B
 &kp ESC    &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
 &kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                                 &kp A                                                     &kp B
@@ -101,23 +101,25 @@
         W_TB {
             label = "W_TB";
             bindings = <
-&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp B
 &kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp A
 &trans     &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
 &kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                                 &kp A                                                     &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp A B>, <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp LG(PLUS) LG(MINUS)>,
+                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         M_TB {
             label = "M_TB";
             bindings = <
-&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp A
 &kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp A
 &trans     &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
 &kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                                 &kp A                                                     &kp B
@@ -129,9 +131,9 @@
         SLW_TB {
             label = "SLW";
             bindings = <
-&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp A
 &kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp A
 &trans     &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
 &kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                                 &kp A                                                     &kp B
@@ -143,9 +145,9 @@
         FST_TB {
             label = "FST";
             bindings = <
-&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &trans
 &kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &trans
 &trans     &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
 &kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                                 &kp A                                                     &kp B
@@ -157,23 +159,25 @@
         BT {
             label = "BT";
             bindings = <
-&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &trans
 &kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &trans
 &trans     &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
 &kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                                 &kp A                                                     &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp SCRL_DOWN SCRL_UP &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>,
+                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         SYS {
             label = "SYS";
             bindings = <
-&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &trans
 &kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &trans
 &trans     &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
 &kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                                 &kp A                                                     &kp B
@@ -185,9 +189,9 @@
         OTR {
             label = "OTR";
             bindings = <
-&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+&kp TAB    &kp Q     &kp W      &kp E     &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &trans
 &kp A      &kp A     &kp S      &kp D     &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp BKSP
+&kp LSHFT  &kp Z     &kp X      &kp C     &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &trans
 &trans     &kp LGUI  &kp LALT             &kp SPACE  &kp SPACE      &kp SPACE  &kp SPACE             &kp LEFT   &kp DOWN   &kp RIGHT
 &kp LEFT   &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
                                 &kp A                                                     &kp B
