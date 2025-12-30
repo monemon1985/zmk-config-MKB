@@ -130,7 +130,7 @@ layers:
   - '8'
   - '9'
   - P
-  - BKSP
+  - A
   - A
   - A
   - S
@@ -154,7 +154,7 @@ layers:
   - '2'
   - '3'
   - UP
-  - BKSP
+  - A
   - ESCAPE
   - LGUI
   - LALT
@@ -177,8 +177,8 @@ layers:
   - END
   - A
   - B
-  M_NUM: [TAB, Q, W, E, R, T, Y, U, I, O, P, BKSP, A, A, S, D, F, G, H, J, K, L, SEMI, SQT, LSHFT, Z, X, C, V, B, N, M, COMMA, DOT, UP, BKSP, ESCAPE, LGUI, LALT,
-    SPACE, SPACE, SPACE, SPACE, LEFT, DOWN, RIGHT, LEFT, UP, SPACE, DOWN, RIGHT, HOME, PG UP, ENTER, PG DN, END, A, B]
+  M_NUM: [TAB, Q, W, E, R, T, Y, U, I, O, P, A, A, A, S, D, F, G, H, J, K, L, SEMI, SQT, LSHFT, Z, X, C, V, B, N, M, COMMA, DOT, UP, A, ESCAPE, LGUI, LALT, SPACE,
+    SPACE, SPACE, SPACE, LEFT, DOWN, RIGHT, LEFT, UP, SPACE, DOWN, RIGHT, HOME, PG UP, ENTER, PG DN, END, A, B]
   FUNC:
   - TAB
   - Q
@@ -191,7 +191,7 @@ layers:
   - I
   - O
   - P
-  - BKSP
+  - A
   - A
   - A
   - S
@@ -215,7 +215,7 @@ layers:
   - COMMA
   - DOT
   - UP
-  - BKSP
+  - B
   - ESC
   - LGUI
   - LALT
@@ -250,7 +250,7 @@ layers:
   - I
   - O
   - P
-  - BKSP
+  - B
   - A
   - A
   - S
@@ -274,7 +274,7 @@ layers:
   - COMMA
   - DOT
   - UP
-  - BKSP
+  - A
   - {t: ▽, type: trans}
   - LGUI
   - LALT
@@ -309,7 +309,7 @@ layers:
   - I
   - O
   - P
-  - BKSP
+  - A
   - A
   - A
   - S
@@ -333,7 +333,7 @@ layers:
   - COMMA
   - DOT
   - UP
-  - BKSP
+  - A
   - {t: ▽, type: trans}
   - LGUI
   - LALT
@@ -368,7 +368,7 @@ layers:
   - I
   - O
   - P
-  - BKSP
+  - A
   - A
   - A
   - S
@@ -392,7 +392,7 @@ layers:
   - COMMA
   - DOT
   - UP
-  - BKSP
+  - A
   - {t: ▽, type: trans}
   - LGUI
   - LALT
@@ -427,7 +427,7 @@ layers:
   - I
   - O
   - P
-  - BKSP
+  - {t: ▽, type: trans}
   - A
   - A
   - S
@@ -451,7 +451,7 @@ layers:
   - COMMA
   - DOT
   - UP
-  - BKSP
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LGUI
   - LALT
@@ -486,7 +486,7 @@ layers:
   - I
   - O
   - P
-  - BKSP
+  - {t: ▽, type: trans}
   - A
   - A
   - S
@@ -510,7 +510,7 @@ layers:
   - COMMA
   - DOT
   - UP
-  - BKSP
+  - {t: ▽, type: trans}
   - {type: held}
   - LGUI
   - LALT
@@ -545,7 +545,7 @@ layers:
   - I
   - O
   - P
-  - BKSP
+  - {t: ▽, type: trans}
   - A
   - A
   - S
@@ -569,7 +569,7 @@ layers:
   - COMMA
   - DOT
   - UP
-  - BKSP
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LGUI
   - LALT
@@ -604,7 +604,7 @@ layers:
   - I
   - O
   - P
-  - BKSP
+  - {t: ▽, type: trans}
   - A
   - A
   - S
@@ -628,7 +628,7 @@ layers:
   - COMMA
   - DOT
   - UP
-  - BKSP
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LGUI
   - LALT
