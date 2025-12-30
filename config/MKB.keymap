@@ -1,4 +1,4 @@
-// #include <layout_shift.dtsi>
+２// #include <layout_shift.dtsi>
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -35,7 +35,7 @@
                                    &kp A                                                                       &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp LG(EQUAL) LG(MINUS) &inc_dec_kp PG_UP PG_DN>;
         };
 
         Mac_default {
@@ -49,7 +49,7 @@
                                  &kp A                                                      &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGH &inc_dec_kp PG_UP PG_DN>;
         };
 
         Win_num {
