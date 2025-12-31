@@ -47,6 +47,7 @@
     };
 };
 
+
 /*input-split*/
 / {
     split_inputs {
@@ -91,3 +92,4 @@
         input-processors = <&zip_xy_scaler 2 1>;
     };
 };
+
