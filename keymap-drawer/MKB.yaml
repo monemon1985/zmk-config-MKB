@@ -311,7 +311,7 @@ layers:
   - FST_TB
   - Ctl+A
   - Gui+LEFT
-  - Gui+TAB
+  - {t: Gui+TAB, h: SYS}
   - Gui+RIGHT
   - Ctl+TAB
   - '&mkp MB5'
@@ -370,7 +370,7 @@ layers:
   - FST_TB
   - Ctl+A
   - Ctl+LEFT
-  - Ctl+TAB
+  - {t: Ctl+TAB, h: SYS}
   - Gui+RIGHT
   - Ctl+TAB
   - '&mkp MB5'
@@ -591,48 +591,48 @@ layers:
   - ''
   - ''
   SYS:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: ▽, type: trans}
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
+  - {t: TAB, type: held}
+  - '&Hotmail'
+  - '&gmail'
+  - '&scmail'
+  - ''
+  - Ctl+Sft+TAB
+  - '&PW'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - FST_TB
+  - Ctl+A
+  - Gui+LEFT
+  - {t: Gui+TAB, type: held}
+  - Gui+RIGHT
+  - Ctl+TAB
+  - '&mkp MB5'
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - Gui+UP ARROW
+  - ''
+  - ''
+  - SLW_TB
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
+  - '&mkp MB4'
+  - Alt+F4
+  - Ctl+W
+  - ''
   - UP
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - LGUI
   - LALT
   - SPACE
   - SPACE
-  - SPACE
+  - FUNC
   - SPACE
   - LEFT
   - DOWN
