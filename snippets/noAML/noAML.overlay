@@ -80,7 +80,6 @@
     /* 以下、あなたの magnet_listener / stick_listener / trackpad_listener はそのまま */
 };
 
-
     magnet_listener: magnet_listener {
         compatible = "zmk,input-listener";
         status = "okay";
