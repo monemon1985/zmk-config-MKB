@@ -48,6 +48,7 @@
     };
 };
 
+#if 0
 /*input-split*/
 / {
     split_inputs {
@@ -91,5 +92,6 @@
         layers = <L_FST_TB>;
         input-processors = <&zip_xy_scaler 4 1>;
     };
+*endif
 
 };
