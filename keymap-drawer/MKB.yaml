@@ -60,7 +60,7 @@ layers:
   - A
   - B
   M_DEF:
-  - TAB
+  - {t: TAB, h: M_TB}
   - Q
   - W
   - E
@@ -96,14 +96,14 @@ layers:
   - DOT
   - SLASH
   - {t: GRAVE, h: RIGHT SHIFT}
-  - ESCAPE
+  - {t: ESCAPE, h: BT}
   - LGUI
-  - LALT
-  - MINUS
-  - SPACE
-  - ENTER
+  - {t: LANGUAGE 2, h: LALT}
+  - {t: MINUS, h: M_TB}
+  - {t: SPACE, h: M_NUM}
+  - {t: ENTER, h: FUNC}
   - BACKSPACE
-  - RIGHT ALT
+  - {t: LANGUAGE 1, h: RIGHT ALT}
   - LEFT BRACKET
   - RIGHT BRACKET
   - LEFT
@@ -120,51 +120,51 @@ layers:
   - B
   W_NUM:
   - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
+  - Sft+Gui+S
+  - Ctl+Gui+LEFT
+  - UP ARROW
+  - Ctl+Gui+RIGHT
+  - Sft+Ctl+TAB
+  - PERIOD
   - '7'
   - '8'
   - '9'
-  - P
-  - A
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - '4'
-  - '5'
-  - '6'
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - '1'
-  - '2'
-  - '3'
-  - UP
-  - A
-  - ESCAPE
-  - LGUI
-  - LALT
-  - SPACE
-  - {t: SPACE, type: held}
-  - SPACE
-  - SPACE
+  - PLUS
+  - ''
+  - LCTRL
+  - Ctl+A
   - LEFT
   - DOWN
   - RIGHT
+  - Ctl+TAB
+  - '&EQ_PL_MN'
+  - '4'
+  - '5'
+  - '6'
+  - COLON
+  - SQT
+  - LSHFT
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - SLASH
+  - ''
+  - Ctl+Alt+DEL
+  - LGUI
+  - LALT
+  - MINUS
+  - {t: SPACE, type: held}
+  - ENTER
+  - BACKSPACE
+  - COMMA
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
   - LEFT
   - UP
   - SPACE
@@ -177,49 +177,106 @@ layers:
   - END
   - A
   - B
-  M_NUM: [TAB, Q, W, E, R, T, Y, U, I, O, P, A, A, A, S, D, F, G, H, J, K, L, SEMI, SQT, LSHFT, Z, X, C, V, B, N, M, COMMA, DOT, UP, A, ESCAPE, LGUI, LALT, SPACE,
-    SPACE, SPACE, SPACE, LEFT, DOWN, RIGHT, LEFT, UP, SPACE, DOWN, RIGHT, HOME, PG UP, ENTER, PG DN, END, A, B]
-  FUNC:
+  M_NUM:
   - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - A
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
+  - Sft+Gui+A
+  - Ctl+LEFT
+  - UP ARROW
+  - Ctl+RIGHT
+  - Sft+Ctl+TAB
+  - PERIOD
+  - '7'
+  - '8'
+  - '9'
+  - PLUS
+  - ''
+  - LEFT COMMAND
+  - Gui+A
+  - LEFT
+  - DOWN
+  - RIGHT
+  - Ctl+TAB
+  - '&EQ_PL_MN'
+  - '4'
+  - '5'
+  - '6'
+  - COLON
   - SQT
   - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - Gui+B
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - SLASH
+  - ''
+  - Ctl+Alt+DEL
+  - LGUI
+  - LANGUAGE 2
+  - MINUS
+  - {t: SPACE, type: held}
+  - ENTER
+  - BACKSPACE
   - COMMA
-  - DOT
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
+  - LEFT
   - UP
+  - SPACE
+  - DOWN
+  - RIGHT
+  - HOME
+  - PG UP
+  - ENTER
+  - PG DN
+  - END
+  - A
   - B
+  FUNC:
+  - TAB
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F12
+  - ''
+  - Sft+!
+  - AT SIGN
+  - HASH
+  - DOLLAR
+  - PERCENT
+  - CARET
+  - AMPERSAND
+  - ASTERISK
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
+  - NON US BACKSLASH
+  - LSHFT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ESC
   - LGUI
-  - LALT
-  - SPACE
+  - LANGUAGE 2
+  - MINUS
   - SPACE
   - {t: SPACE, type: held}
   - SPACE
@@ -240,47 +297,47 @@ layers:
   - B
   W_TB:
   - {t: TAB, type: held}
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - B
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
+  - '&Hotmail'
+  - '&gmail'
+  - '&scmail'
+  - ''
+  - Ctl+Sft+TAB
+  - '&PW'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - FST_TB
+  - Ctl+A
+  - Gui+LEFT
+  - Gui+TAB
+  - Gui+RIGHT
+  - Ctl+TAB
+  - '&mkp MB5'
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - Gui+UP ARROW
+  - ''
+  - ''
+  - SLW_TB
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
+  - '&mkp MB4'
+  - Alt+F4
+  - Ctl+W
+  - ''
   - UP
-  - A
+  - ''
   - {t: ▽, type: trans}
   - LGUI
   - LALT
   - SPACE
   - SPACE
-  - SPACE
+  - FUNC
   - SPACE
   - LEFT
   - DOWN
@@ -298,42 +355,101 @@ layers:
   - A
   - B
   M_TB:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - A
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
+  - {t: TAB, type: held}
+  - '&Hotmail'
+  - '&gmail'
+  - '&scmail'
+  - ''
+  - Ctl+Sft+TAB
+  - '&PW'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - FST_TB
+  - Ctl+A
+  - Ctl+LEFT
+  - Ctl+TAB
+  - Gui+RIGHT
+  - Ctl+TAB
+  - '&mkp MB5'
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - Ctl+Gui+UP ARROW
+  - ''
+  - ''
+  - SLW_TB
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - Gui+B
+  - '&mkp MB4'
+  - Gui+AltGr+W
+  - Gui+W
+  - ''
   - UP
+  - ''
+  - {t: ▽, type: trans}
+  - LGUI
+  - LALT
+  - SPACE
+  - SPACE
+  - FUNC
+  - SPACE
+  - LEFT
+  - DOWN
+  - RIGHT
+  - LEFT
+  - UP
+  - SPACE
+  - DOWN
+  - RIGHT
+  - HOME
+  - PG UP
+  - ENTER
+  - PG DN
+  - END
   - A
+  - B
+  SLW_TB:
+  - {t: TAB, type: held}
+  - '&Hotmail'
+  - '&gmail'
+  - '&scmail'
+  - ''
+  - Ctl+Sft+TAB
+  - '&PW'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Ctl+A
+  - Gui+LEFT
+  - Gui+TAB
+  - Gui+RIGHT
+  - Ctl+TAB
+  - '&mkp MB5'
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - Gui+UP ARROW
+  - ''
+  - ''
+  - {type: held}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
+  - '&mkp MB4'
+  - Alt+F4
+  - Ctl+W
+  - ''
+  - UP
+  - ''
   - {t: ▽, type: trans}
   - LGUI
   - LALT
@@ -356,102 +472,43 @@ layers:
   - END
   - A
   - B
-  SLW:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - A
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
+  FST_TB:
+  - {t: TAB, type: held}
+  - '&Hotmail'
+  - '&gmail'
+  - '&scmail'
+  - ''
+  - Ctl+Sft+TAB
+  - '&PW'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - Ctl+A
+  - Gui+LEFT
+  - Gui+TAB
+  - Gui+RIGHT
+  - Ctl+TAB
+  - '&mkp MB5'
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - Gui+UP ARROW
+  - ''
+  - ''
+  - ''
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
+  - '&mkp MB4'
+  - Alt+F4
+  - Ctl+W
+  - ''
   - UP
-  - A
-  - {t: ▽, type: trans}
-  - LGUI
-  - LALT
-  - SPACE
-  - SPACE
-  - SPACE
-  - SPACE
-  - LEFT
-  - DOWN
-  - RIGHT
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ENTER
-  - PG DN
-  - END
-  - A
-  - B
-  FST:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: ▽, type: trans}
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
-  - UP
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - LGUI
   - LALT
@@ -475,64 +532,64 @@ layers:
   - A
   - B
   BT:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: ▽, type: trans}
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
-  - UP
-  - {t: ▽, type: trans}
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - LGUI
-  - LALT
-  - SPACE
-  - SPACE
-  - SPACE
-  - SPACE
-  - LEFT
-  - DOWN
-  - RIGHT
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ENTER
-  - PG DN
-  - END
-  - A
-  - B
+  - {t: W_DEF, h: toggle}
+  - {t: M_DEF, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR ALL
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   SYS:
   - TAB
   - Q
