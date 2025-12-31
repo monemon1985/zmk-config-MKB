@@ -48,7 +48,7 @@
     };
 };
 
-#if 0
+
 /*input-split*/
 / {
     split_inputs {
@@ -69,7 +69,7 @@
         device = <&trackball_split>;
     };
 };
-
+#if 0
 /* ここはトップレベルで “上書き” する */
 &trackball_listener {
     /* デフォルトは“ほぼ無効” (1/16) */
@@ -92,6 +92,6 @@
         layers = <L_FST_TB>;
         input-processors = <&zip_xy_scaler 4 1>;
     };
-*endif
+#endif
 
 };
