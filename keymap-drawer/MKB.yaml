@@ -121,7 +121,7 @@ layers:
   W_NUM:
   - TAB
   - Sft+Gui+S
-  - Ctl+Gui+LEFT
+  - Gui+Ctl+LEFT
   - UP ARROW
   - Ctl+Gui+RIGHT
   - Sft+Ctl+TAB
