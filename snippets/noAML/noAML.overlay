@@ -57,38 +57,43 @@
         /* 既存の scroll / arrow などは、必要なら残す */
         scroll {
             layers = <1>;
-            input-processors =
-                <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,
-                <&zip_xy_scaler 1 16>,
-                <&zip_xy_to_scroll_mapper>;
+            input-processors = <
+                &zip_xy_transform INPUT_TRANSFORM_X_INVERT
+                &zip_xy_scaler 1 16
+                &zip_xy_to_scroll_mapper
+            >;
         };
 
         arrow {
             layers = <2>;
-            input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT|INPUT_TRANSFORM_Y_INVERT)>;
+            input-processors = <
+                &zip_xy_transform (INPUT_TRANSFORM_X_INVERT|INPUT_TRANSFORM_Y_INVERT)
+            >;
             process-next;
         };
 
-        /* 注意：0倍率は不可なので、ここはビルドエラー/動作不定の元になり得ます */
-        /* arrow-prevent-move はいったん “ほぼ無効” にするなら 1/16 推奨 */
+        /* arrow-prevent-move は “ほぼ無効” にするなら 1/16 推奨 */
         arrow-prevent-move {
             layers = <2>;
-            input-processors = <&zip_xy_scaler 1 16>;
+            input-processors = <
+                &zip_xy_scaler 1 16
+            >;
         };
     };
 
-    /* 以下、あなたの magnet_listener / stick_listener / trackpad_listener はそのまま */
-};
-
+    /* ★ここから magnet_listener（/ { } の外に出さない） */
     magnet_listener: magnet_listener {
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&magnet_split>;
+
         move {
             layers = <0>;
-            input-processors = 
-                                // <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP)>,
-                                <&zip_xy_scaler 1 2>;
+            input-processors = <
+                /* XYを入れ替えたいなら、下の行のコメントを外す（定義がある前提） */
+                /* &zip_xy_transform (INPUT_TRANSFORM_XY_SWAP) */
+                &zip_xy_scaler 1 2
+            >;
         };
     };
 
