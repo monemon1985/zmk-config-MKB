@@ -72,7 +72,7 @@
 /* ここはトップレベルで “上書き” する */
 &trackball_listener {
     /* デフォルトは“ほぼ無効” (1/16) */
-    input-processors = <&zip_xy_scaler 1 16>;
+/*    input-processors = <&zip_xy_scaler 1 16>; */
 
     /* 遅い：SLW_TB */
     slow {
