@@ -146,8 +146,8 @@
         W_TB {
             label = "W_TB";
             bindings = <
-&kp TAB   &Hotmail   &gmail        &scmail      &none          &kp RC(RS(TAB))      &PW       &none       &none      &none             &none      &none
-&mo 8     &kp LC(A)  &kp RG(LEFT)  &kp RG(TAB)  &kp RG(RIGHT)  &kp RC(TAB)          &mkp MB5  &mkp LCLK   &mkp RCLK  &kp RG(UP_ARROW)  &none      &none
+&kp TAB   &Hotmail   &gmail        &scmail      &none          &kp LC(RS(TAB))      &PW       &none       &none      &none             &none      &none
+&mo 8     &kp LC(A)  &kp RG(LEFT)  &kp RG(TAB)  &kp RG(RIGHT)  &kp LC(TAB)          &mkp MB5  &mkp LCLK   &mkp RCLK  &kp RG(UP_ARROW)  &none      &none
 &mo 7     &kp LC(Z)  &kp LC(X)     &kp LC(C)    &kp LC(V)      &kp LC(B)            &mkp MB4  &kp LA(F4)  &kp LC(W)  &none             &kp UP     &none
 &trans    &kp LGUI   &kp LALT                   &kp SPACE      &kp SPACE            &mo 4     &kp SPACE              &kp LEFT          &kp DOWN   &kp RIGHT
 &kp LEFT  &kp UP     &kp SPACE     &kp DOWN     &kp RIGHT                                     &kp HOME    &kp PG_UP  &kp ENTER         &kp PG_DN  &kp END
@@ -162,8 +162,8 @@
         M_TB {
             label = "M_TB";
             bindings = <
-&kp TAB   &Hotmail   &gmail        &scmail      &none          &kp RC(RS(TAB))      &PW       &none          &none      &none                 &none      &none
-&mo 8     &kp LC(A)  &kp LC(LEFT)  &kp LC(TAB)  &kp RG(RIGHT)  &kp RC(TAB)          &mkp MB5  &mkp LCLK      &mkp RCLK  &kp LC(RG(UP_ARROW))  &none      &none
+&kp TAB   &Hotmail   &gmail        &scmail      &none          &kp LC(RS(TAB))      &PW       &none          &none      &none                 &none      &none
+&mo 8     &kp LC(A)  &kp LC(LEFT)  &kp LC(TAB)  &kp RG(RIGHT)  &kp LC(TAB)          &mkp MB5  &mkp LCLK      &mkp RCLK  &kp LC(RG(UP_ARROW))  &none      &none
 &mo 7     &kp RG(Z)  &kp RG(X)     &kp RG(C)    &kp RG(V)      &kp RG(B)            &mkp MB4  &kp RG(RA(W))  &kp RG(W)  &none                 &kp UP     &none
 &trans    &kp LGUI   &kp LALT                   &kp SPACE      &kp SPACE            &mo 4     &kp SPACE                 &kp LEFT              &kp DOWN   &kp RIGHT
 &kp LEFT  &kp UP     &kp SPACE     &kp DOWN     &kp RIGHT                                     &kp HOME       &kp PG_UP  &kp ENTER             &kp PG_DN  &kp END
@@ -178,8 +178,8 @@
         SLW_TB {
             label = "SLW_TB";
             bindings = <
-&kp TAB   &Hotmail   &gmail        &scmail      &none          &kp RC(RS(TAB))      &PW        &none       &none      &none             &none      &none
-&none     &kp LC(A)  &kp RG(LEFT)  &kp RG(TAB)  &kp RG(RIGHT)  &kp RC(TAB)          &mkp MB5   &mkp LCLK   &mkp RCLK  &kp RG(UP_ARROW)  &none      &none
+&kp TAB   &Hotmail   &gmail        &scmail      &none          &kp LC(RS(TAB))      &PW        &none       &none      &none             &none      &none
+&none     &kp LC(A)  &kp RG(LEFT)  &kp RG(TAB)  &kp RG(RIGHT)  &kp LC(TAB)          &mkp MB5   &mkp LCLK   &mkp RCLK  &kp RG(UP_ARROW)  &none      &none
 &none     &kp LC(Z)  &kp LC(X)     &kp LC(C)    &kp LC(V)      &kp LC(B)            &mkp MB4   &kp LA(F4)  &kp LC(W)  &none             &kp UP     &none
 &trans    &kp LGUI   &kp LALT                   &kp SPACE      &kp SPACE            &kp SPACE  &kp SPACE              &kp LEFT          &kp DOWN   &kp RIGHT
 &kp LEFT  &kp UP     &kp SPACE     &kp DOWN     &kp RIGHT                                      &kp HOME    &kp PG_UP  &kp ENTER         &kp PG_DN  &kp END
@@ -194,8 +194,8 @@
         FST_TB {
             label = "FST_TB";
             bindings = <
-&kp TAB   &Hotmail   &gmail        &scmail      &none          &kp RC(RS(TAB))      &PW        &none       &none      &none             &none      &none
-&none     &kp LC(A)  &kp RG(LEFT)  &kp RG(TAB)  &kp RG(RIGHT)  &kp RC(TAB)          &mkp MB5   &mkp LCLK   &mkp RCLK  &kp RG(UP_ARROW)  &none      &none
+&kp TAB   &Hotmail   &gmail        &scmail      &none          &kp LC(RS(TAB))      &PW        &none       &none      &none             &none      &none
+&none     &kp LC(A)  &kp RG(LEFT)  &kp RG(TAB)  &kp RG(RIGHT)  &kp LC(TAB)          &mkp MB5   &mkp LCLK   &mkp RCLK  &kp RG(UP_ARROW)  &none      &none
 &none     &kp LC(Z)  &kp LC(X)     &kp LC(C)    &kp LC(V)      &kp LC(B)            &mkp MB4   &kp LA(F4)  &kp LC(W)  &none             &kp UP     &none
 &trans    &kp LGUI   &kp LALT                   &kp SPACE      &kp SPACE            &kp SPACE  &kp SPACE              &kp LEFT          &kp DOWN   &kp RIGHT
 &kp LEFT  &kp UP     &kp SPACE     &kp DOWN     &kp RIGHT                                      &kp HOME    &kp PG_UP  &kp ENTER         &kp PG_DN  &kp END
