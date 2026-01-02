@@ -17,6 +17,15 @@
             &zip_xy_scaler 0 1
         >;
 
+        /* ★追加：SYS(10) のときはスクロールにする */
+
+         scroll {
+            layers = <9 10>;
+                &zip_xy_transform (INPUT_TRANSFORM_X_INVERT|INPUT_TRANSFORM_Y_INVERT)
+                &zip_xy_scaler 1 10
+            >;
+        };
+
         /* 遅い：SLW_TB */
         tb_slow {
             layers = <7>;
@@ -44,12 +53,7 @@
             >;
         };
 
-        /* ★追加：SYS(10) のときはスクロールにする */
 
-         scroll {
-            layers = <10>;
-            input-processors = <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>, <&zip_xy_scaler 1 16>, <&zip_xy_to_scroll_mapper>;
-        };
     };
 
     /* ★ここから magnet_listener（/ { } の外に出さない） */
