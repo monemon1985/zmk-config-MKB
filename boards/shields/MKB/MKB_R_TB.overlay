@@ -4,6 +4,8 @@
 #define L_M_TB     6
 #define L_SLW_TB   7
 #define L_FST_TB   8
+#define L_SYS     10
+
 
 &pinctrl {
     spi0_default: spi0_default {
@@ -72,7 +74,7 @@
 
 &trackball_listener {
     /* デフォルトはほぼ無効 */
-    input-processors = <&zip_xy_scaler 1 16>;
+    input-processors = <&zip_xy_scaler 0 16>;
 
     /* 遅い */
     slow {
@@ -91,5 +93,15 @@
         layers = <L_FST_TB>;
         input-processors = <&zip_xy_scaler 2 1>;
     };
+
+     /* ★追加：SYS(10) はスクロール */
+    sys_scroll {
+        layers = <L_SYS>;
+        input-processors = <
+            &zip_xy_scaler 1 16
+            &zip_xy_to_scroll_mapper
+        >;
+    };
 };
+
 
