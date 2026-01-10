@@ -371,7 +371,7 @@ layers:
   - Ctl+A
   - Ctl+LEFT
   - {t: Ctl+TAB, h: SYS}
-  - Gui+RIGHT
+  - Ctl+RIGHT
   - Ctl+TAB
   - '&mkp MB5'
   - '&mkp LCLK'
