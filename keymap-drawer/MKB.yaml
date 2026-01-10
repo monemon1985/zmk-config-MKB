@@ -308,7 +308,7 @@ layers:
   - ''
   - ''
   - ''
-  - FST_TB
+  - SLW_TB
   - Ctl+A
   - Gui+LEFT
   - {t: Gui+TAB, h: SYS}
@@ -320,7 +320,7 @@ layers:
   - Gui+UP ARROW
   - ''
   - ''
-  - SLW_TB
+  - FST_TB
   - Ctl+Z
   - Ctl+X
   - Ctl+C
@@ -367,7 +367,7 @@ layers:
   - ''
   - ''
   - ''
-  - FST_TB
+  - SLW_TB
   - Ctl+A
   - Ctl+LEFT
   - {t: Ctl+TAB, h: SYS}
@@ -379,7 +379,7 @@ layers:
   - Ctl+Gui+UP ARROW
   - ''
   - ''
-  - SLW_TB
+  - FST_TB
   - Gui+Z
   - Gui+X
   - Gui+C
@@ -426,7 +426,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - Ctl+A
   - Gui+LEFT
   - Gui+TAB
@@ -438,7 +438,7 @@ layers:
   - Gui+UP ARROW
   - ''
   - ''
-  - {type: held}
+  - ''
   - Ctl+Z
   - Ctl+X
   - Ctl+C
@@ -485,7 +485,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - Ctl+A
   - Gui+LEFT
   - Gui+TAB
@@ -497,7 +497,7 @@ layers:
   - Gui+UP ARROW
   - ''
   - ''
-  - ''
+  - {type: held}
   - Ctl+Z
   - Ctl+X
   - Ctl+C
@@ -708,3 +708,10 @@ layers:
   - END
   - A
   - B
+combos:
+- p: [1, 0]
+  k: ESCAPE
+- p: [15, 39]
+  k: LANGUAGE 2
+- p: [20, 42]
+  k: LANGUAGE 1
