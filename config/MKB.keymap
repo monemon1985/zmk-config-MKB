@@ -171,12 +171,12 @@
         W_TB {
             label = "W_TB";
             bindings = <
-&kp TAB   &Hotmail   &gmail        &scmail         &none          &kp LC(RS(TAB))      &PW       &none       &none      &none             &none      &none
-&mo 7     &kp LC(A)  &kp RG(LEFT)  &lt 10 RG(TAB)  &kp RG(RIGHT)  &kp LC(TAB)          &mkp MB5  &mkp LCLK   &mkp RCLK  &kp RG(UP_ARROW)  &none      &none
-&mo 8     &kp LC(Z)  &kp LC(X)     &kp LC(C)       &kp LC(V)      &kp LC(B)            &mkp MB4  &kp LA(F4)  &kp LC(W)  &none             &kp UP     &none
-&trans    &kp LGUI   &kp LALT                      &kp SPACE      &kp SPACE            &mo 4     &kp SPACE              &kp LEFT          &kp DOWN   &kp RIGHT
-&kp LEFT  &kp UP     &kp SPACE     &kp DOWN        &kp RIGHT                                     &kp HOME    &kp PG_UP  &kp ENTER         &kp PG_DN  &kp END
-                                   &kp A                                                                     &kp B
+&kp TAB   &Hotmail   &gmail            &scmail         &none              &kp LC(RS(TAB))      &PW       &none       &none      &none             &none      &none
+&mo 7     &kp LC(A)  &kp RG(LC(LEFT))  &lt 10 RG(TAB)  &kp RG(LC(RIGHT))  &kp LC(TAB)          &mkp MB5  &mkp LCLK   &mkp RCLK  &kp RG(UP_ARROW)  &none      &none
+&mo 8     &kp LC(Z)  &kp LC(X)         &kp LC(C)       &kp LC(V)          &kp LC(B)            &mkp MB4  &kp LA(F4)  &kp LC(W)  &none             &kp UP     &none
+&trans    &kp LGUI   &kp LALT                          &kp SPACE          &kp SPACE            &mo 4     &kp SPACE              &kp LEFT          &kp DOWN   &kp RIGHT
+&kp LEFT  &kp UP     &kp SPACE         &kp DOWN        &kp RIGHT                                         &kp HOME    &kp PG_UP  &kp ENTER         &kp PG_DN  &kp END
+                                       &kp A                                                                         &kp B
             >;
 
             sensor-bindings =
