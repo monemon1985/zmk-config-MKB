@@ -310,9 +310,9 @@ layers:
   - ''
   - SLW_TB
   - Ctl+A
-  - Gui+LEFT
+  - Gui+Ctl+LEFT
   - {t: Gui+TAB, h: SYS}
-  - Gui+RIGHT
+  - Gui+Ctl+RIGHT
   - Ctl+TAB
   - '&mkp MB5'
   - '&mkp LCLK'
