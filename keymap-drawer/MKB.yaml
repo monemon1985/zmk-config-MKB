@@ -153,7 +153,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - SLASH
+  - '&slash_multiply'
   - ''
   - Ctl+Alt+DEL
   - LGUI
@@ -212,7 +212,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - SLASH
+  - '&slash_multiply'
   - ''
   - Ctl+Alt+DEL
   - LGUI
@@ -238,6 +238,18 @@ layers:
   - B
   FUNC:
   - TAB
+  - '!'
+  - AT SIGN
+  - HASH
+  - DOLLAR
+  - PERCENT
+  - LCTRL
+  - AMPERSAND
+  - ASTERISK
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
+  - NON US BACKSLASH
+  - ''
   - F1
   - F2
   - F3
@@ -249,18 +261,6 @@ layers:
   - F9
   - F10
   - F12
-  - ''
-  - Sft+!
-  - AT SIGN
-  - HASH
-  - DOLLAR
-  - PERCENT
-  - CARET
-  - AMPERSAND
-  - ASTERISK
-  - LEFT PARENTHESIS
-  - RIGHT PARENTHESIS
-  - NON US BACKSLASH
   - LSHFT
   - ''
   - ''
