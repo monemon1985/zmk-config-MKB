@@ -96,7 +96,7 @@ layers:
   - DOT
   - SLASH
   - {t: GRAVE, h: RIGHT SHIFT}
-  - {t: ESC, h: BT}
+  - {t: ESCAPE, h: BT}
   - LGUI
   - {t: LANGUAGE 2, h: LALT}
   - {t: MINUS, h: M_TB}
@@ -120,51 +120,51 @@ layers:
   - B
   W_NUM:
   - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
+  - Sft+Gui+S
+  - Gui+Ctl+LEFT
+  - UP ARROW
+  - Ctl+Gui+RIGHT
+  - Sft+Ctl+TAB
+  - PERIOD
   - '7'
   - '8'
   - '9'
-  - P
-  - BKSP
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - '4'
-  - '5'
-  - '6'
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - '1'
-  - '2'
-  - '3'
-  - UP
-  - BKSP
-  - {t: ESC, h: LCTL}
-  - LGUI
-  - LALT
-  - SPACE
-  - {t: SPACE, type: held}
-  - SPACE
-  - SPACE
+  - PLUS
+  - ''
+  - LCTRL
+  - Ctl+A
   - LEFT
   - DOWN
   - RIGHT
+  - Ctl+TAB
+  - '&EQ_PL_MN'
+  - '4'
+  - '5'
+  - '6'
+  - COLON
+  - SQT
+  - LSHFT
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '&slash_multiply'
+  - ''
+  - Ctl+Alt+DEL
+  - LGUI
+  - LALT
+  - MINUS
+  - {t: SPACE, type: held}
+  - ENTER
+  - BACKSPACE
+  - COMMA
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
   - LEFT
   - UP
   - SPACE
@@ -179,51 +179,51 @@ layers:
   - B
   M_NUM:
   - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BKSP
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
-  - UP
-  - BKSP
-  - {t: ESC, h: LCTL}
-  - LGUI
-  - LALT
-  - SPACE
-  - {t: SPACE, type: held}
-  - SPACE
-  - SPACE
+  - Sft+Gui+A
+  - Ctl+LEFT
+  - UP ARROW
+  - Ctl+RIGHT
+  - Sft+Ctl+TAB
+  - PERIOD
+  - '7'
+  - '8'
+  - '9'
+  - PLUS
+  - ''
+  - LEFT COMMAND
+  - Gui+A
   - LEFT
   - DOWN
   - RIGHT
+  - Ctl+TAB
+  - '&EQ_PL_MN'
+  - '4'
+  - '5'
+  - '6'
+  - COLON
+  - SQT
+  - LSHFT
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - Gui+B
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '&slash_multiply'
+  - ''
+  - Ctl+Alt+DEL
+  - LGUI
+  - LANGUAGE 2
+  - MINUS
+  - {t: SPACE, type: held}
+  - ENTER
+  - BACKSPACE
+  - COMMA
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
   - LEFT
   - UP
   - SPACE
@@ -238,45 +238,45 @@ layers:
   - B
   FUNC:
   - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BKSP
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - SQT
+  - '!'
+  - AT SIGN
+  - HASH
+  - DOLLAR
+  - PERCENT
+  - LCTRL
+  - AMPERSAND
+  - ASTERISK
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
+  - NON US BACKSLASH
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F12
   - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
-  - UP
-  - BKSP
-  - {t: ESC, h: LCTL}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ESC
   - LGUI
-  - LALT
-  - SPACE
+  - LANGUAGE 2
+  - MINUS
   - SPACE
   - {t: SPACE, type: held}
   - SPACE
@@ -297,47 +297,47 @@ layers:
   - B
   W_TB:
   - {t: TAB, type: held}
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BKSP
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
+  - '&Hotmail'
+  - '&gmail'
+  - '&scmail'
+  - ''
+  - Ctl+Sft+TAB
+  - '&PW'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - SLW_TB
+  - Ctl+A
+  - Gui+Ctl+LEFT
+  - {t: Gui+TAB, h: SYS}
+  - Gui+Ctl+RIGHT
+  - Ctl+TAB
+  - '&mkp MB5'
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - Gui+UP ARROW
+  - ''
+  - ''
+  - FST_TB
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
+  - '&mkp MB4'
+  - Alt+F4
+  - Ctl+W
+  - ''
   - UP
-  - BKSP
-  - {t: ESC, h: LCTL}
+  - ''
+  - {t: ▽, type: trans}
   - LGUI
   - LALT
   - SPACE
   - SPACE
-  - SPACE
+  - FUNC
   - SPACE
   - LEFT
   - DOWN
@@ -356,42 +356,101 @@ layers:
   - B
   M_TB:
   - {t: TAB, type: held}
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BKSP
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
+  - '&Hotmail'
+  - '&gmail'
+  - '&scmail'
+  - ''
+  - Ctl+Sft+TAB
+  - '&PW'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - SLW_TB
+  - Ctl+A
+  - Ctl+LEFT
+  - {t: Ctl+TAB, h: SYS}
+  - Ctl+RIGHT
+  - Ctl+TAB
+  - '&mkp MB5'
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - Ctl+Gui+UP ARROW
+  - ''
+  - ''
+  - FST_TB
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - Gui+B
+  - '&mkp MB4'
+  - Gui+AltGr+W
+  - Gui+W
+  - ''
   - UP
-  - BKSP
-  - {t: ESC, h: LCTL}
+  - ''
+  - {t: ▽, type: trans}
+  - LGUI
+  - LALT
+  - SPACE
+  - SPACE
+  - FUNC
+  - SPACE
+  - LEFT
+  - DOWN
+  - RIGHT
+  - LEFT
+  - UP
+  - SPACE
+  - DOWN
+  - RIGHT
+  - HOME
+  - PG UP
+  - ENTER
+  - PG DN
+  - END
+  - A
+  - B
+  SLW_TB:
+  - {t: TAB, type: held}
+  - '&Hotmail'
+  - '&gmail'
+  - '&scmail'
+  - ''
+  - Ctl+Sft+TAB
+  - '&PW'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - Ctl+A
+  - Gui+LEFT
+  - Gui+TAB
+  - Gui+RIGHT
+  - Ctl+TAB
+  - '&mkp MB5'
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - Gui+UP ARROW
+  - ''
+  - ''
+  - ''
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
+  - '&mkp MB4'
+  - Alt+F4
+  - Ctl+W
+  - ''
+  - UP
+  - ''
+  - {t: ▽, type: trans}
   - LGUI
   - LALT
   - SPACE
@@ -413,103 +472,44 @@ layers:
   - END
   - A
   - B
-  SLW:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BKSP
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
+  FST_TB:
+  - {t: TAB, type: held}
+  - '&Hotmail'
+  - '&gmail'
+  - '&scmail'
+  - ''
+  - Ctl+Sft+TAB
+  - '&PW'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Ctl+A
+  - Gui+LEFT
+  - Gui+TAB
+  - Gui+RIGHT
+  - Ctl+TAB
+  - '&mkp MB5'
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - Gui+UP ARROW
+  - ''
+  - ''
+  - {type: held}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
+  - '&mkp MB4'
+  - Alt+F4
+  - Ctl+W
+  - ''
   - UP
-  - BKSP
-  - {t: ESC, h: LCTL}
-  - LGUI
-  - LALT
-  - SPACE
-  - SPACE
-  - SPACE
-  - SPACE
-  - LEFT
-  - DOWN
-  - RIGHT
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ENTER
-  - PG DN
-  - END
-  - A
-  - B
-  FST:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BKSP
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
-  - UP
-  - BKSP
-  - {t: ESC, h: LCTL}
+  - ''
+  - {t: ▽, type: trans}
   - LGUI
   - LALT
   - SPACE
@@ -532,107 +532,107 @@ layers:
   - A
   - B
   BT:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BKSP
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
-  - UP
-  - BKSP
-  - {t: ESC, h: LCTL, type: held}
-  - LGUI
-  - LALT
-  - SPACE
-  - SPACE
-  - SPACE
-  - SPACE
-  - LEFT
-  - DOWN
-  - RIGHT
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ENTER
-  - PG DN
-  - END
-  - A
-  - B
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {t: W_DEF, h: toggle}
+  - {t: M_DEF, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR ALL
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   SYS:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BKSP
-  - A
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - SQT
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
+  - {t: TAB, type: held}
+  - '&Hotmail'
+  - '&gmail'
+  - '&scmail'
+  - ''
+  - Ctl+Sft+TAB
+  - '&PW'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - FST_TB
+  - Ctl+A
+  - Gui+LEFT
+  - {t: Gui+TAB, type: held}
+  - Gui+RIGHT
+  - Ctl+TAB
+  - '&mkp MB5'
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - Gui+UP ARROW
+  - ''
+  - ''
+  - SLW_TB
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
+  - '&mkp MB4'
+  - Alt+F4
+  - Ctl+W
+  - ''
   - UP
-  - BKSP
-  - {t: ESC, h: LCTL}
+  - ''
+  - {t: ▽, type: trans}
   - LGUI
   - LALT
   - SPACE
   - SPACE
-  - SPACE
+  - FUNC
   - SPACE
   - LEFT
   - DOWN
@@ -661,7 +661,7 @@ layers:
   - I
   - O
   - P
-  - BKSP
+  - {t: ▽, type: trans}
   - A
   - A
   - S
@@ -685,8 +685,8 @@ layers:
   - COMMA
   - DOT
   - UP
-  - BKSP
-  - {t: ESC, h: LCTL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LGUI
   - LALT
   - SPACE
@@ -708,3 +708,10 @@ layers:
   - END
   - A
   - B
+combos:
+- p: [1, 0]
+  k: ESCAPE
+- p: [15, 39]
+  k: LANGUAGE 2
+- p: [20, 42]
+  k: LANGUAGE 1
